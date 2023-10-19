@@ -1,0 +1,83 @@
+
+body{
+
+    background-color:darkgray;
+}
+#MainHeading{
+    margin-left:25px;
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.web{
+  font-size:35px;
+  color:rgb(77, 34, 118);
+}
+#Container{
+
+    background-color:white;
+    height:1000px;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:25px;
+    border-style:solid;
+    border-width:1px;
+    border-color:rgba(255, 255, 255, 0.829);
+    border-radius:15px;
+    box-shadow:4px 3px 5px rgb(1,1,1,0.1);
+}
+
+.FirstBoxes{
+
+    height:50px;
+    width:400px;
+    /* border-width:2px;
+    border-bottom-width:2px; */
+    
+}
+
+.UpperForm{
+
+    grid-template-rows: 50px;
+}
+
+
+table {
+    border-collapse: separate; /*To Seperate the tables row and columns*/
+    border-spacing: 35px 25px;
+  }
+
+  #textarea1{
+
+    margin-left:37px;
+  }
+
+  #TestareaLabel{
+
+    margin-left:37px
+  }
+
+  #file{
+
+    border-style:solid;
+    border-width:1px;
+
+  }
+
+  #Button{
+
+    margin-left:800px;
+    margin-top:150px;
+    height:50px;
+    background-color:rgb(231, 25, 25);
+    -webkit-text-fill-color:rgb(243, 243, 250);
+    -webkit-text-size-adjust: 40px;
+    border-color:rgb(231, 25, 25);
+  }
+
+ .textStyle{
+
+    font-size:19px;
+    font-style:bold;
+    
+ }

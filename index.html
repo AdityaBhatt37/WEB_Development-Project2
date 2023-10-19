@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project2/Job Application</title>
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div id="Container">
+        
+        <section id="InContainer">
+            <h1 id="MainHeading">Job Application <span class="web">(Web)</span></h1>
+            
+    
+            <form><table>
+                <tr>
+                    <td  >
+                        <label class="textStyle" for="FirstName">First Name</label><br>
+                        <input  type="text" id="FirstName" class="FirstBoxes">
+                    </td>
+
+                    <td>
+                        <label class="textStyle" for="LastName">Last Name</label><br>
+                        <input type="text" id="LastName" class="FirstBoxes">
+                    </td>
+                </tr> <br>
+
+                <tr>
+                    <td>
+                        <label class="textStyle" for="">Email</label><br>
+                        <input type="text" id="" class="FirstBoxes">
+                    </td>
+
+                    <td>
+                        <label class="textStyle" for="JobRole">Job Role:</label><br>
+                        <select id="JobRole" class="FirstBoxes">
+                           <option value="">Select Job Role</option>
+                           <option value="Front End Developer">Front End Developer</option>
+                           <option value="Back End Developer">Back End Developer</option>
+                           <option value="Full Stack Developer">Full Stack Developer</option>
+                           <option value="Cloud Programer">Cloud Programer</option>
+                           <option value="DataBase management">DataBase management</option>
+
+                        </select>
+                    </td>    
+                </tr>
+
+            </table></form>
+
+            <label class="textStyle" for="textarea1" id="TestareaLabel">Address</label>
+           <textarea name="textArea1" id="textarea1" cols="115" rows="10"></textarea>
+
+        </section>
+
+
+
+        <section>
+            <form><table>
+                <tr>
+                    <td>
+                        <label class="textStyle" for="City">City</label><br>
+                        <input type="text" id="City" class="FirstBoxes">
+                    </td>
+    
+                    <td>
+                        <label class="textStyle" for="Pincode">Pincode</label><br>
+                        <input type="text" id="Pincode" class="FirstBoxes">
+                    </td>
+                </tr> <br>
+    
+                <tr>
+                    <td>
+                        <label class="textStyle" for="Date">Start Date</label><br>
+                        <input type="date" id="Date" class="FirstBoxes">
+                    </td>
+  
+                    <td>  
+                        <label class="textStyle" for="FileSelectUpload">Upload Your CV</label><br>
+                        <input id="file" type="file" id="FileSelectUpload" class="FirstBoxes">
+                          </td></table>
+            </form>
+                              <button id="Button">Click for Apply</button>  
+        </section>
+        
+
+
+
+        
+    </div>
+
+
+</body>
+</html>
